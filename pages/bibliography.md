@@ -6,6 +6,8 @@ description: Papers, posters, talks, etc.
 
 [ORCID](https://orcid.org/0009-0002-0982-8149)
 
+---
+
 ## [ARBFN: Arbitrary Externally-Computed Closed-Loop Force Fixes in LAMMPS](https://github.com/jorbDehmel/lammps_ARBFN)
 
 Spring 2025, paper in preparation for journal submission
