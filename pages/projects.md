@@ -4,6 +4,8 @@ description: Anything cool but not publishable
 
 # Notable Projects
 
+[Back](../index.md)
+
 All my independent projects are FOSS, usually under the MIT
 license. Work associated with publications can be found with
 their entries [here](./bibliography.md).

@@ -1,8 +1,11 @@
 ---
+title: Bibliography
 description: Papers, posters, talks, etc.
 ---
 
 # Bibliography
+
+[Back](../index.md)
 
 [ORCID](https://orcid.org/0009-0002-0982-8149)
 
