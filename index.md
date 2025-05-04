@@ -3,6 +3,8 @@
 
 [Projects](pages/projects.md)
 
+---
+
 # Research Interests
 
 *TLDR: Computability, complexity, languages, automata*
