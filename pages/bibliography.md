@@ -1,3 +1,6 @@
+---
+description: Papers, posters, talks, etc.
+---
 
 # Bibliography
 

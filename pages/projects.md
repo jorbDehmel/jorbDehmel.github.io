@@ -1,3 +1,6 @@
+---
+description: Anything cool but not publishable
+---
 
 # Notable Projects
 
