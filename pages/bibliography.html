@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <h1>Bibliography</h1>
+  <b>
+    <a href="../index.html">Back</a>
+    <a href="https://orcid.org/0009-0002-0982-8149"
+       target="_blank">
+      ORCID
+    </a>
+  </b>
+  <div class="nonheader">
+    <h2>
+      <a href="https://github.com/jorbDehmel/lammps_ARBFN">
+        ARBFN: Arbitrary Externally-Computed Closed-Loop Force
+        Fixes in LAMMPS
+      </a>
+    </h2>
+    <p>
+      Spring 2025, paper in preparation for journal submission
+    </p>
+    <p>
+      <b>Jordan Dehmel (CMU)</b>, Jarrod Schiffbauer (CMU)
+    </p>
+    <p>
+      <blockquote>
+        <b>Abstract:</b>
+        The molecular dynamics simulation software
+        LAMMPS (Large-scale Atomic/Molecular Massively Parallel
+        Simulator) provides a scripting language for the easy
+        implementation of experiments: However, it is not
+        all-encompassing. There are many situations in which
+        LAMMPS alone is not sufficient and some external
+        computation must be used, for example, including quantum
+        effects [Kohlmeyer, Ippolito, Cavazzoni, 2014] and
+        machine learning control [Rohskopf et. al., 2023] of a
+        simulation. Such situations provide some custom
+        interface for a specific program to apply forces on the
+        simulated particles. This project outlines the
+        development of a generic protocol for this process.
+        Specifically, we introduce an externally-controlled
+        arbitrary atomic forcing fix within the existing MPI
+        (Message Passing Interface) LAMMPS framework [OpenMPI,
+        2003] [Thompson et. al., 2024]. This involves an
+        arbitrary-language controller program being instantiated
+        alongside LAMMPS in an MPI runtime, then communicating
+        with all LAMMPS instances whenever the desired fix must
+        be computed. The protocol communicates in JSON
+        (JavaScript Object Notation) strings and assumes no
+        controller linguistic properties beyond a valid MPI
+        implementation.
+      </blockquote>
+    </p>
+    <br>
+    <h2>
+      <a href=
+        "https://meetings.aps.org/Meeting/DFD24/Session/S01.51">
+        Study and Investigation of behavior of Janus particles in
+        different concentration KCl electrolytes mixed with
+        glycerol
+      </a>
+    </h2>
+    <p>
+      November 2024, Poster for the 2024 APS 77th Annual Meeting
+      of the Division of Fluid Dynamics
+    </p>
+    <p>
+      Sandeep Ramteke (FIU), <b>Jordan Dehmel (presenter,
+      CMU)</b>, Alicia Boymelgreen (FIU), Jarrod Schiffbauer (CMU)
+    </p>
+    <br>
+    <h2>
+      Vulnerability and Data Flow Analysis on Arbitrary Languages
+      with Code Property Graphs and Taint Traversals
+    </h2>
+    <p>
+      Summer 2024, paper in-progress
+    </p>
+    <p>
+      <b>Jordan Dehmel (CMU)</b> and Warren MacEvoy (CMU)
+    </p>
+    <p>
+      <blockquote>
+        <b>Abstract:</b>
+        When assessing the security of code, it is
+        paramount to ensure that security-privileged routines do not
+        disclose secret information to would-be attackers.
+        Similarly, when interacting with important and abstract APIs
+        like databases, it must be ensured that no unverified user
+        input be allowed direct access (EG SQL injection attacks).
+        These problems both involve tracking the contributors and
+        dependents of variables at debugging time, a common task in
+        analysis and linting. This paper examines the use of Code
+        Property Graphs (CPGs) [Yamaguchi, Golde, Arp and Rieck,
+        2014] and taint-style vulnerability scanning [Sabelfeld and
+        Myers, 2003] in such a context. CPGs are dense and
+        expressive representations of program syntax, dependency,
+        and control flow often used in linting. Taint-style
+        vulnerability scanning, on the other hand, tracks possible
+        vulnerabilities along variable modifications and control
+        flow alterations such that sensitive data does not flow
+        beyond its desired scope. This paper describes a
+        language-agnostic algorithm for the construction of CPGs
+        with embedded information-flow security measures and details
+        the development of a VSCode extension utilizing them.
+      </blockquote>
+    </p>
+    <br>
+    <h2>
+      Expanding Active Matter to the Third Dimension: Exploring
+      Short and Long-Range Particle-Wall Interactions.
+    </h2>
+    <p>
+      Fall 2024, paper, in review at PRL.
+    </p>
+    <p>
+      Sandeep Ramteke, <b>Jordan Dehmel</b>, Touvia Miloh, Jarrod
+      Schiffbauer, Alicia Boymelgreen
+    </p>
+    <blockquote>
+      Resulted in the launching of extraterrestrial ISS
+      experiments on the effects of microgravity on colloidal
+      active matter in August 2024, as well as novel experiments
+      involving density matching on Earth for the avoidance of
+      gravity-related error.
+    </blockquote>
+    <br>
+    <h2>
+      Colloidal Active Matter Under Applied Electric Fields
+    </h2>
+    <p>
+      Fall 2024, Poster for the 2024 RMACC HPC Symposium Student
+      Poster Competition.
+    </p>
+    <p>
+      <b>Jordan Dehmel (CMU)</b>, Sandeep Ramteke (FIU), Jarrod
+      Schiffbauer (CMU), Alicia Boymelgreen (FIU)
+    </p>
+    <br>
+    <h2>
+      Individual and Collective Motion in Colloidal Active Matter
+      Under Applied Electric Fields: Experimental and
+      Computational Perspectives
+    </h2>
+    <p>
+      Fall 2024, Presentation for the 2024 Colorado Mesa
+      University Student Showcase
+    </p>
+    <p>
+      <b>Jordan Dehmel (CMU)</b>, Sandeep Ramteke (FIU), Jarrod
+      Schiffbauer (CMU), Alicia Boymelgreen (FIU)
+    </p>
+    <br>
+    <h2>
+      <a href="https://github.com/jorbDehmel/masc-projects">
+        What time is it: How do computers know what time it is?
+      </a>
+    </h2>
+    <p>
+      August 2023, Children's exhibit for the Eureka! McConnell
+      Science Museum
+    </p>
+  </div>
+</body>
+</html>

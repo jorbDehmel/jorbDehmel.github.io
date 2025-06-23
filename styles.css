@@ -1,0 +1,27 @@
+body {
+    background-color:white;
+    text-align: center;
+}
+.nonheader {
+    background-color: floralwhite;
+    width: 100%;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 1dvw;
+    padding-right: 1dvw;
+    border: solid 0.4dvh black;
+    width: auto;
+}
+h1, h2, p, a, blockquote {
+    color: black;
+    font-family: monospace;
+    margin-top: 0;
+    text-align: left;
+}
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+img {
+    height: 50dvh;
+}
